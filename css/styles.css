@@ -1,0 +1,41 @@
+:root {
+    background-color: var(--primary);
+    --primary: rgb(45, 45, 45);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+    /* Navigation */
+.nav-a {
+    list-style-type: none;
+    background-color: black;
+    padding: 5;
+    overflow: hidden;
+    /* box-shadow: 0 20px 0 0 black; */
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+}
+
+.nav-a li {
+    float: left;
+    width: 150px;
+}
+
+.active {
+    background-color: orange;
+    color: black;
+}
+
+li a:hover {
+    background-color: orangered;
+    color:black ;
+}
+
+
+
